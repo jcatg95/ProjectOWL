@@ -1,0 +1,2757 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.tesis.com/ontologies/tesis.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.tesis.com/ontologies/tesis.owl">
+    <Prefix name="" IRI="http://www.tesis.com/ontologies/tesis.owl"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AnfArmandoSolezzi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnfJoseDammert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anfiteatro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aprobado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArticuloDeInvestigacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asesor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AudArteYDiseno"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AudBibliotecaCentral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AudCienciasEIngenieria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AudCienciasSociales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AudDerecho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AudEducacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AudEstudiosGeneralesLetras"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AudFisica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AudHumanidades"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AudJuanPabloII"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Auditorio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AuditorioFisico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AuditorioVirtual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Autor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AutorAlumnoPosgrado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AutorAlumnoPregrado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BibCENTRUM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BibCentral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BibCentroEstudiosOrientales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BibCienciasSociales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BibComplejoInnovacionAcademica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BibInstitutoConfucio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BibInstitutoRivaaguero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BibTeologia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bibilioteca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CentroDocumentacionCienciasSocial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CicloAcademico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CicloAcamEgreso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CicloAcamIngreso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Concluido"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coordinador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoordinadorEspecialidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepAcamArquitectura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepAcamArteYDiseno"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepAcamArtesEscenicas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepAcamCiencias"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepAcamCienciasAdministrativas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepAcamCienciasDeLaGestion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepAcamCienciasSeccionFisica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepAcamCienciasSeccionMatematicas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepAcamCienciasSeccionQuimica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepAcamCienciasSociales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepAcamComunicaciones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepAcamDerecho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepAcamEconomia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepAcamEducacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepAcamHumanidades"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepAcamInformaticaElectronicaTelecom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepAcamIngMecanica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepAcamIngMinas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepAcamPsicologia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepAcamTeologia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepartamentoAcademico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DirectorEscuela"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DocAntropologia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DocAntropologiaArqueologiaHistoriaLinguistica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DocDerecho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DocEconomia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DocFilosofia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DocFisica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DocGestionEstrategica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DocHistoria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DocIngenieria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DocLiteraturaHispanoamericana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DocMatematicas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DocPsicologia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DocSociologia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Escuela"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EscuelaDeNegocios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EscuelaDePosgrado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EspPosgDoctorado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EspPosgMaestria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Especialidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EspecialidadPosgrado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EspecialidadPregrado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estadistica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EstadoProduccionCientifica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EstadoTesis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EstadoTrabajoInvestigacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EvaluadorJurado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FacArquitecturaYUrbanismo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FacArteYDiseno"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FacArtesEscenicas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FacCienciasContables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FacCienciasEIngenieria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FacCienciasSociales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FacDerecho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FacEducacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FacEstudiosInterdisciplinarios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FacGestionYAltaDireccion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FacLetrasYCienciasHumanas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FacPsicologia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Facultad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fisica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IngenieriaAmbientalYSostenible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IngenieriaBiomedica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IngenieriaCivil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IngenieriaDeLasTelecomunicaciones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IngenieriaDeMinas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IngenieriaElectronica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IngenieriaGeologica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IngenieriaIndustrial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IngenieriaInformatica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IngenieriaMecanica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IngenieriaMecatronica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Libro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeAdiccionesYConductasAdictivas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeAntropologia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeAntropologiaVisual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeArqueologia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeArquitectura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeArquitecturaYUrbanismo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeArtes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeBiocomercioYDesarrolloSostenible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeCienciasBasicasYAplicadas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeCienciasContables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeCienciasPoliticasYRelacionesInternacionales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeCienciasSociales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeCognicionAprendizajeYDesarrollo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeComunicacionEnSalud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeComunicaciones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeContabilidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeDerecho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeDerechoAdministrativo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeDerechoBancarioYFinanciero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeDerechoCivil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeDerechoDelTrabajoYDeLaSeguridadSocial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeDerechoEnLaEmpresa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeDerechoEnLaPropiedadIntelectualYDeLaCompetencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeDerechoInternacionalEconomico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeDerechoPenal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeDerechoProcesal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeDerechoTributario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeDerechosHumanos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeDesarrolloAmbiental"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeDesarrolloHumanoEnfoqueYPoliticas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeEconomia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeEducacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeEducacionAT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeEnergia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeEnsenanzaDeLasMatematicas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeEscrituraCreativa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeEstadistica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeEstudiosAmbientales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeEstudiosCulturales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeEstudiosDeGenero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeFilosofia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeFisica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeFonoaudiologia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeGerenciaSocial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeGestionDeLaIngenieria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeGestionDeLosRecursosHidricos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeGestionDePoliticasYProgramasParaDesarrolloInfantilTemprano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeGestionYPoliticaDeLaInnovacionYLaTecnologia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeGobiernoYPoliticasPublicas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeHistoria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeHistoriaDelArteYCuraduria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeHumanidades"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeIngMecatronica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeIngenieria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeIngenieriaBiomedica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeIngenieriaCivil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeIngenieriaDeControlYAutomatizacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeIngenieriaIndustrial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeIngenieriaMecanica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeIngenieriaMecatronica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeIngenieriaTelecomunicaciones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeIngenieriaYCienciasDeLosMateriales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeIngenieriaYGestionDeCadenasDeSuministro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeIntegracionEInnovacionEducativaDeLasTIC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeInterdisciplinarias"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeIntervencionClinicaPsicoanalitica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeInvestigacionJuridica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeLinguistica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeLiteraturaHispanoamericana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeMatematicas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeMatematicasAplicadas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeMusicologia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeProcesamientoDeSenalesEImagenesDigitales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaePsicologia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaePsicologiaAT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeQuimica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeRegulacionGestionYEconomiaMinera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeRegulacionServiciosPublicos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaeSociologia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maenformatica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MapeoSistematico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Matematicas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MencionCienciasComputacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MencionDificultadesDeAprendizaje"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MencionEstudiosAndinosAntrop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MencionEstudiosAndinosArq"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MencionEstudiosAndinosHist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MencionIngenieriaSoftware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modalidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Persona"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Presencial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProduccionCientifica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProduccionDeInvestigacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProduccionLiteraria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Programado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProyectoDeInvestigacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PruebaInconsistenciaTesis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Publicador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quimica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rechazado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Registrado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Remota"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RevisionSistematica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Revisor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Revista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sala"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalaAdolfoWinternitz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalaAudiencias"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalaCeciliaThorne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalaCentroCultural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalaComplejoInnovacionAcademica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalaConferencias"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalaConferenciasEEGGLL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalaConferenciasIngMecanica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalaGrados"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalaGradosCienciasContables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalaGradosCienciasSociales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalaGradosDerecho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalaGradosLetrasYCienciasHumanas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalaJaponCentroEstudiosOrientales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalaLectura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalaManuelMarzalCISEPA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalaMultiples"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalaObservaciones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalaReunionesComplejoCCSS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalaUsosMultiples"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SustPosgrado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SustPregrado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sustentacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Termino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerminoClave"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerminoSecundario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tesis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TesisBachiller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TesisDoctorado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TesisLicenciatura2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TesisMaestria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TesisPosgrado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TesisPregrado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TesisSegundaEspecialidad2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TesisTitulo2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TipoAuditorio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TipoBiblioteca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrabInvAprobado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrabInvConcluido"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrabInvMaestria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrabInvProgramadoPublicacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrabInvProgramadoSustentacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrabInvPublicado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrabInvRechazado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrabInvRegistrado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrabInvTitulo2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrabajoDeInvestigacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnidadAcademica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Universidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UniversidadPrivada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UniversidadPublica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ValuePartition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esAnfiteatroDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esAsesorDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esAuditorioDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esAuditorioFisicoDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esAuditorioVirtualDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esAutorAlumnoPosgradoDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esAutorAlumnoPregradoDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esAutorDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esBibliotecaDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esEvaluadoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esParteDeCicloAcademicoDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esParteDeCicloAcamEgresoDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esParteDeCicloAcamIngresoDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esParteDeDepartamentoAcademicoDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esParteDeEscuelaDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esParteDeEspPosgDoctoradoDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esParteDeEspPosgMaestriaDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esParteDeEspecialidadDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esParteDeEspecialidadPosgradoDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esParteDeEspecialidadPregradoDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esParteDeFacultadDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esParteDeUnidadAcademicaDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esSalaDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esSalaLecturaDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esSustentadoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esTerminoDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esTipoAuditorioDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esTipoBibiliotecaDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esUniversidadDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perteneceCicloAcademico"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perteneceCicloAcamEgreso"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perteneceCicloAcamIngreso"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perteneceDepartamentoAcademico"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perteneceEscuela"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perteneceEspPosgDoctorado"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perteneceEspPosgMaestria"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perteneceEspecialidad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perteneceEspecialidadPosgrado"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perteneceEspecialidadPregrado"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perteneceFacultad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perteneceUnidadAcademica"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneAnfiteatro"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneAsesor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneAuditorio"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneAuditorioFisico"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneAuditorioVirtual"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneAutor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneAutorAlumnoPosgrado"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneAutorAlumnoPregrado"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneBiblioteca"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneEstadoTesis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneEstadoTrabajoInvestigacion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneEvaluador"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneSala"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneSalaLectura"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneSustentacion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneTermino"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneTipoAuditorio"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneTipoBiblioteca"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneUniversidad"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#EstadoTesis"/>
+        <ObjectUnionOf>
+            <Class IRI="#Aprobado"/>
+            <Class IRI="#Concluido"/>
+            <Class IRI="#Programado"/>
+            <Class IRI="#Rechazado"/>
+            <Class IRI="#Registrado"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EstadoTrabajoInvestigacion"/>
+        <ObjectUnionOf>
+            <Class IRI="#TrabInvAprobado"/>
+            <Class IRI="#TrabInvConcluido"/>
+            <Class IRI="#TrabInvProgramadoPublicacion"/>
+            <Class IRI="#TrabInvProgramadoSustentacion"/>
+            <Class IRI="#TrabInvPublicado"/>
+            <Class IRI="#TrabInvRechazado"/>
+            <Class IRI="#TrabInvRegistrado"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TesisLicenciatura2"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#ProduccionDeInvestigacion"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneAsesor"/>
+                <Class IRI="#Asesor"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneAutor"/>
+                <Class IRI="#AutorAlumnoPregrado"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneEvaluador"/>
+                <Class IRI="#EvaluadorJurado"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneSustentacion"/>
+                <Class IRI="#SustPregrado"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneTermino"/>
+                <Class IRI="#Termino"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneUniversidad"/>
+                <Class IRI="#Universidad"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TesisSegundaEspecialidad2"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#ProduccionDeInvestigacion"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneAsesor"/>
+                <Class IRI="#Asesor"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneAutor"/>
+                <Class IRI="#AutorAlumnoPregrado"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneEvaluador"/>
+                <Class IRI="#EvaluadorJurado"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneSustentacion"/>
+                <Class IRI="#SustPregrado"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneTermino"/>
+                <Class IRI="#Termino"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneUniversidad"/>
+                <Class IRI="#Universidad"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TesisTitulo2"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#ProduccionDeInvestigacion"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneAsesor"/>
+                <Class IRI="#Asesor"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneAutor"/>
+                <Class IRI="#AutorAlumnoPregrado"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneEvaluador"/>
+                <Class IRI="#EvaluadorJurado"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneSustentacion"/>
+                <Class IRI="#SustPregrado"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneTermino"/>
+                <Class IRI="#Termino"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneUniversidad"/>
+                <Class IRI="#Universidad"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#AnfArmandoSolezzi"/>
+        <Class IRI="#Anfiteatro"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnfJoseDammert"/>
+        <Class IRI="#Anfiteatro"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anfiteatro"/>
+        <Class IRI="#AuditorioFisico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aprobado"/>
+        <Class IRI="#EstadoTesis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticuloDeInvestigacion"/>
+        <Class IRI="#ProduccionDeInvestigacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asesor"/>
+        <Class IRI="#Persona"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AudArteYDiseno"/>
+        <Class IRI="#Auditorio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AudBibliotecaCentral"/>
+        <Class IRI="#Auditorio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AudCienciasEIngenieria"/>
+        <Class IRI="#Auditorio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AudCienciasSociales"/>
+        <Class IRI="#Auditorio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AudDerecho"/>
+        <Class IRI="#Auditorio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AudEducacion"/>
+        <Class IRI="#Auditorio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AudEstudiosGeneralesLetras"/>
+        <Class IRI="#Auditorio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AudFisica"/>
+        <Class IRI="#Auditorio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AudHumanidades"/>
+        <Class IRI="#Auditorio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AudJuanPabloII"/>
+        <Class IRI="#Auditorio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Auditorio"/>
+        <Class IRI="#AuditorioFisico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AuditorioFisico"/>
+        <Class IRI="#TipoAuditorio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AuditorioVirtual"/>
+        <Class IRI="#TipoAuditorio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Autor"/>
+        <Class IRI="#Persona"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AutorAlumnoPosgrado"/>
+        <Class IRI="#Autor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AutorAlumnoPregrado"/>
+        <Class IRI="#Autor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BibCENTRUM"/>
+        <Class IRI="#Bibilioteca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BibCentral"/>
+        <Class IRI="#Bibilioteca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BibCentroEstudiosOrientales"/>
+        <Class IRI="#Bibilioteca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BibCienciasSociales"/>
+        <Class IRI="#Bibilioteca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BibComplejoInnovacionAcademica"/>
+        <Class IRI="#Bibilioteca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BibInstitutoConfucio"/>
+        <Class IRI="#Bibilioteca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BibInstitutoRivaaguero"/>
+        <Class IRI="#Bibilioteca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BibTeologia"/>
+        <Class IRI="#Bibilioteca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bibilioteca"/>
+        <Class IRI="#TipoBiblioteca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CentroDocumentacionCienciasSocial"/>
+        <Class IRI="#Bibilioteca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CicloAcamEgreso"/>
+        <Class IRI="#CicloAcademico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CicloAcamIngreso"/>
+        <Class IRI="#CicloAcademico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Concluido"/>
+        <Class IRI="#EstadoTesis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coordinador"/>
+        <Class IRI="#Persona"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoordinadorEspecialidad"/>
+        <Class IRI="#Persona"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepAcamArquitectura"/>
+        <Class IRI="#DepartamentoAcademico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepAcamArteYDiseno"/>
+        <Class IRI="#DepartamentoAcademico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepAcamArtesEscenicas"/>
+        <Class IRI="#DepartamentoAcademico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepAcamCiencias"/>
+        <Class IRI="#DepartamentoAcademico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepAcamCienciasAdministrativas"/>
+        <Class IRI="#DepartamentoAcademico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepAcamCienciasDeLaGestion"/>
+        <Class IRI="#DepartamentoAcademico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepAcamCienciasSeccionFisica"/>
+        <Class IRI="#DepAcamCiencias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepAcamCienciasSeccionMatematicas"/>
+        <Class IRI="#DepAcamCiencias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepAcamCienciasSeccionQuimica"/>
+        <Class IRI="#DepAcamCiencias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepAcamCienciasSociales"/>
+        <Class IRI="#DepartamentoAcademico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepAcamComunicaciones"/>
+        <Class IRI="#DepartamentoAcademico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepAcamDerecho"/>
+        <Class IRI="#DepartamentoAcademico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepAcamEconomia"/>
+        <Class IRI="#DepartamentoAcademico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepAcamEducacion"/>
+        <Class IRI="#DepartamentoAcademico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepAcamHumanidades"/>
+        <Class IRI="#DepartamentoAcademico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepAcamInformaticaElectronicaTelecom"/>
+        <Class IRI="#DepartamentoAcademico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepAcamIngMecanica"/>
+        <Class IRI="#DepartamentoAcademico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepAcamIngMinas"/>
+        <Class IRI="#DepartamentoAcademico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepAcamPsicologia"/>
+        <Class IRI="#DepartamentoAcademico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepAcamTeologia"/>
+        <Class IRI="#DepartamentoAcademico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DirectorEscuela"/>
+        <Class IRI="#Persona"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DocAntropologia"/>
+        <Class IRI="#EspPosgDoctorado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DocAntropologiaArqueologiaHistoriaLinguistica"/>
+        <Class IRI="#EspPosgDoctorado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DocDerecho"/>
+        <Class IRI="#EspPosgDoctorado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DocEconomia"/>
+        <Class IRI="#EspPosgDoctorado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DocFilosofia"/>
+        <Class IRI="#EspPosgDoctorado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DocFisica"/>
+        <Class IRI="#EspPosgDoctorado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DocGestionEstrategica"/>
+        <Class IRI="#EspPosgDoctorado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DocHistoria"/>
+        <Class IRI="#EspPosgDoctorado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DocIngenieria"/>
+        <Class IRI="#EspPosgDoctorado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DocLiteraturaHispanoamericana"/>
+        <Class IRI="#EspPosgDoctorado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DocMatematicas"/>
+        <Class IRI="#EspPosgDoctorado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DocPsicologia"/>
+        <Class IRI="#EspPosgDoctorado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DocSociologia"/>
+        <Class IRI="#EspPosgDoctorado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Escuela"/>
+        <Class IRI="#UnidadAcademica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EscuelaDeNegocios"/>
+        <Class IRI="#Escuela"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EscuelaDePosgrado"/>
+        <Class IRI="#Escuela"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EspPosgDoctorado"/>
+        <Class IRI="#EspecialidadPosgrado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EspPosgMaestria"/>
+        <Class IRI="#EspecialidadPosgrado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EspecialidadPosgrado"/>
+        <Class IRI="#Especialidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EspecialidadPregrado"/>
+        <Class IRI="#Especialidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estadistica"/>
+        <Class IRI="#EspecialidadPregrado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EstadoProduccionCientifica"/>
+        <Class IRI="#ValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EstadoProduccionCientifica"/>
+        <ObjectUnionOf>
+            <Class IRI="#EstadoTesis"/>
+            <Class IRI="#EstadoTrabajoInvestigacion"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EstadoTesis"/>
+        <Class IRI="#EstadoProduccionCientifica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EstadoTrabajoInvestigacion"/>
+        <Class IRI="#EstadoProduccionCientifica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EvaluadorJurado"/>
+        <Class IRI="#Persona"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FacArquitecturaYUrbanismo"/>
+        <Class IRI="#Facultad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FacArteYDiseno"/>
+        <Class IRI="#Facultad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FacArtesEscenicas"/>
+        <Class IRI="#Facultad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FacCienciasContables"/>
+        <Class IRI="#Facultad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FacCienciasEIngenieria"/>
+        <Class IRI="#Facultad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FacCienciasSociales"/>
+        <Class IRI="#Facultad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FacDerecho"/>
+        <Class IRI="#Facultad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FacEducacion"/>
+        <Class IRI="#Facultad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FacEstudiosInterdisciplinarios"/>
+        <Class IRI="#Facultad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FacGestionYAltaDireccion"/>
+        <Class IRI="#Facultad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FacLetrasYCienciasHumanas"/>
+        <Class IRI="#Facultad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FacPsicologia"/>
+        <Class IRI="#Facultad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Facultad"/>
+        <Class IRI="#UnidadAcademica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fisica"/>
+        <Class IRI="#EspecialidadPregrado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IngenieriaAmbientalYSostenible"/>
+        <Class IRI="#EspecialidadPregrado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IngenieriaBiomedica"/>
+        <Class IRI="#EspecialidadPregrado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IngenieriaCivil"/>
+        <Class IRI="#EspecialidadPregrado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IngenieriaDeLasTelecomunicaciones"/>
+        <Class IRI="#EspecialidadPregrado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IngenieriaDeMinas"/>
+        <Class IRI="#EspecialidadPregrado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IngenieriaElectronica"/>
+        <Class IRI="#EspecialidadPregrado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IngenieriaGeologica"/>
+        <Class IRI="#EspecialidadPregrado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IngenieriaIndustrial"/>
+        <Class IRI="#EspecialidadPregrado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IngenieriaInformatica"/>
+        <Class IRI="#EspecialidadPregrado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IngenieriaMecanica"/>
+        <Class IRI="#EspecialidadPregrado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IngenieriaMecatronica"/>
+        <Class IRI="#EspecialidadPregrado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Libro"/>
+        <Class IRI="#ProduccionLiteraria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeAdiccionesYConductasAdictivas"/>
+        <Class IRI="#MaePsicologiaAT"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeAntropologia"/>
+        <Class IRI="#MaeCienciasSociales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeAntropologiaVisual"/>
+        <Class IRI="#MaeCienciasSociales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeArqueologia"/>
+        <Class IRI="#MaeInterdisciplinarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeArquitectura"/>
+        <Class IRI="#MaeArquitecturaYUrbanismo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeArquitecturaYUrbanismo"/>
+        <Class IRI="#EspPosgMaestria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeArtes"/>
+        <Class IRI="#EspPosgMaestria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeBiocomercioYDesarrolloSostenible"/>
+        <Class IRI="#MaeEstudiosAmbientales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeCienciasBasicasYAplicadas"/>
+        <Class IRI="#EspPosgMaestria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeCienciasContables"/>
+        <Class IRI="#EspPosgMaestria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeCienciasPoliticasYRelacionesInternacionales"/>
+        <Class IRI="#MaeCienciasSociales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeCienciasSociales"/>
+        <Class IRI="#EspPosgMaestria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeCognicionAprendizajeYDesarrollo"/>
+        <Class IRI="#MaePsicologiaAT"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeComunicacionEnSalud"/>
+        <Class IRI="#MaeInterdisciplinarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeComunicaciones"/>
+        <Class IRI="#MaeInterdisciplinarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeContabilidad"/>
+        <Class IRI="#MaeCienciasContables"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeDerecho"/>
+        <Class IRI="#EspPosgMaestria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeDerechoAdministrativo"/>
+        <Class IRI="#MaeDerecho"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeDerechoBancarioYFinanciero"/>
+        <Class IRI="#MaeDerecho"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeDerechoCivil"/>
+        <Class IRI="#MaeDerecho"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeDerechoDelTrabajoYDeLaSeguridadSocial"/>
+        <Class IRI="#MaeDerecho"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeDerechoEnLaEmpresa"/>
+        <Class IRI="#MaeDerecho"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeDerechoEnLaPropiedadIntelectualYDeLaCompetencia"/>
+        <Class IRI="#MaeDerecho"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeDerechoInternacionalEconomico"/>
+        <Class IRI="#MaeDerecho"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeDerechoPenal"/>
+        <Class IRI="#MaeDerecho"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeDerechoProcesal"/>
+        <Class IRI="#MaeDerecho"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeDerechoTributario"/>
+        <Class IRI="#MaeDerecho"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeDerechosHumanos"/>
+        <Class IRI="#MaeInterdisciplinarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeDesarrolloAmbiental"/>
+        <Class IRI="#MaeEstudiosAmbientales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeDesarrolloHumanoEnfoqueYPoliticas"/>
+        <Class IRI="#MaeInterdisciplinarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeEconomia"/>
+        <Class IRI="#MaeCienciasSociales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeEducacion"/>
+        <Class IRI="#MaeEducacionAT"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeEducacionAT"/>
+        <Class IRI="#EspPosgMaestria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeEnergia"/>
+        <Class IRI="#MaeIngenieria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeEnsenanzaDeLasMatematicas"/>
+        <Class IRI="#MaeEducacionAT"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeEscrituraCreativa"/>
+        <Class IRI="#MaeHumanidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeEstadistica"/>
+        <Class IRI="#MaeCienciasBasicasYAplicadas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeEstudiosAmbientales"/>
+        <Class IRI="#EspPosgMaestria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeEstudiosCulturales"/>
+        <Class IRI="#MaeInterdisciplinarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeEstudiosDeGenero"/>
+        <Class IRI="#MaeInterdisciplinarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeFilosofia"/>
+        <Class IRI="#MaeHumanidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeFisica"/>
+        <Class IRI="#MaeCienciasBasicasYAplicadas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeFonoaudiologia"/>
+        <Class IRI="#MaeInterdisciplinarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeGerenciaSocial"/>
+        <Class IRI="#MaeInterdisciplinarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeGestionDeLaIngenieria"/>
+        <Class IRI="#MaeIngenieria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeGestionDeLosRecursosHidricos"/>
+        <Class IRI="#MaeEstudiosAmbientales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeGestionDePoliticasYProgramasParaDesarrolloInfantilTemprano"/>
+        <Class IRI="#MaeEducacionAT"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeGestionYPoliticaDeLaInnovacionYLaTecnologia"/>
+        <Class IRI="#MaeInterdisciplinarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeGobiernoYPoliticasPublicas"/>
+        <Class IRI="#MaeCienciasSociales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeHistoria"/>
+        <Class IRI="#MaeHumanidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeHistoriaDelArteYCuraduria"/>
+        <Class IRI="#MaeHumanidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeHumanidades"/>
+        <Class IRI="#EspPosgMaestria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeIngMecatronica"/>
+        <Class IRI="#MaeIngenieria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeIngenieria"/>
+        <Class IRI="#EspPosgMaestria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeIngenieriaBiomedica"/>
+        <Class IRI="#MaeIngenieria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeIngenieriaCivil"/>
+        <Class IRI="#MaeIngenieria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeIngenieriaDeControlYAutomatizacion"/>
+        <Class IRI="#MaeIngenieria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeIngenieriaIndustrial"/>
+        <Class IRI="#MaeIngenieria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeIngenieriaMecanica"/>
+        <Class IRI="#MaeIngenieria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeIngenieriaMecatronica"/>
+        <Class IRI="#MaeIngenieria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeIngenieriaTelecomunicaciones"/>
+        <Class IRI="#MaeIngenieria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeIngenieriaYCienciasDeLosMateriales"/>
+        <Class IRI="#MaeIngenieria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeIngenieriaYGestionDeCadenasDeSuministro"/>
+        <Class IRI="#MaeIngenieria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeIntegracionEInnovacionEducativaDeLasTIC"/>
+        <Class IRI="#MaeEducacionAT"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeInterdisciplinarias"/>
+        <Class IRI="#EspPosgMaestria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeIntervencionClinicaPsicoanalitica"/>
+        <Class IRI="#MaePsicologiaAT"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeInvestigacionJuridica"/>
+        <Class IRI="#MaeDerecho"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeLinguistica"/>
+        <Class IRI="#MaeInterdisciplinarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeLiteraturaHispanoamericana"/>
+        <Class IRI="#MaeHumanidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeMatematicas"/>
+        <Class IRI="#MaeCienciasBasicasYAplicadas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeMatematicasAplicadas"/>
+        <Class IRI="#MaeCienciasBasicasYAplicadas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeMusicologia"/>
+        <Class IRI="#MaeArtes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeProcesamientoDeSenalesEImagenesDigitales"/>
+        <Class IRI="#MaeIngenieria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaePsicologia"/>
+        <Class IRI="#MaePsicologiaAT"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaePsicologiaAT"/>
+        <Class IRI="#EspPosgMaestria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeQuimica"/>
+        <Class IRI="#MaeCienciasBasicasYAplicadas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeRegulacionGestionYEconomiaMinera"/>
+        <Class IRI="#MaeInterdisciplinarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeRegulacionServiciosPublicos"/>
+        <Class IRI="#MaeInterdisciplinarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaeSociologia"/>
+        <Class IRI="#MaeCienciasSociales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maenformatica"/>
+        <Class IRI="#MaeIngenieria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MapeoSistematico"/>
+        <Class IRI="#ArticuloDeInvestigacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Matematicas"/>
+        <Class IRI="#EspecialidadPregrado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MencionCienciasComputacion"/>
+        <Class IRI="#Maenformatica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MencionDificultadesDeAprendizaje"/>
+        <Class IRI="#MaeEducacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MencionEstudiosAndinosAntrop"/>
+        <Class IRI="#MaeAntropologia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MencionEstudiosAndinosArq"/>
+        <Class IRI="#MaeArqueologia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MencionEstudiosAndinosHist"/>
+        <Class IRI="#MaeHistoria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MencionIngenieriaSoftware"/>
+        <Class IRI="#Maenformatica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Presencial"/>
+        <Class IRI="#Modalidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProduccionDeInvestigacion"/>
+        <Class IRI="#ProduccionCientifica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProduccionLiteraria"/>
+        <Class IRI="#ProduccionCientifica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Programado"/>
+        <Class IRI="#EstadoTesis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProyectoDeInvestigacion"/>
+        <Class IRI="#ProduccionDeInvestigacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PruebaInconsistenciaTesis"/>
+        <Class IRI="#TesisPosgrado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PruebaInconsistenciaTesis"/>
+        <Class IRI="#TesisPregrado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Publicador"/>
+        <Class IRI="#Persona"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quimica"/>
+        <Class IRI="#EspecialidadPregrado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rechazado"/>
+        <Class IRI="#EstadoTesis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Registrado"/>
+        <Class IRI="#EstadoTesis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Remota"/>
+        <Class IRI="#Modalidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RevisionSistematica"/>
+        <Class IRI="#ArticuloDeInvestigacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Revisor"/>
+        <Class IRI="#Persona"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Revista"/>
+        <Class IRI="#ProduccionLiteraria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sala"/>
+        <Class IRI="#AuditorioFisico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalaAdolfoWinternitz"/>
+        <Class IRI="#SalaMultiples"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalaAudiencias"/>
+        <Class IRI="#SalaMultiples"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalaCeciliaThorne"/>
+        <Class IRI="#SalaMultiples"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalaCentroCultural"/>
+        <Class IRI="#SalaMultiples"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalaComplejoInnovacionAcademica"/>
+        <Class IRI="#SalaMultiples"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalaConferencias"/>
+        <Class IRI="#Sala"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalaConferenciasEEGGLL"/>
+        <Class IRI="#SalaConferencias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalaConferenciasIngMecanica"/>
+        <Class IRI="#SalaConferencias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalaGrados"/>
+        <Class IRI="#Sala"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalaGradosCienciasContables"/>
+        <Class IRI="#SalaGrados"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalaGradosCienciasSociales"/>
+        <Class IRI="#SalaGrados"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalaGradosDerecho"/>
+        <Class IRI="#SalaGrados"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalaGradosLetrasYCienciasHumanas"/>
+        <Class IRI="#SalaGrados"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalaJaponCentroEstudiosOrientales"/>
+        <Class IRI="#SalaMultiples"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalaLectura"/>
+        <Class IRI="#TipoBiblioteca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalaManuelMarzalCISEPA"/>
+        <Class IRI="#SalaMultiples"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalaMultiples"/>
+        <Class IRI="#Sala"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalaObservaciones"/>
+        <Class IRI="#SalaMultiples"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalaReunionesComplejoCCSS"/>
+        <Class IRI="#SalaMultiples"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalaUsosMultiples"/>
+        <Class IRI="#SalaMultiples"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SustPosgrado"/>
+        <Class IRI="#Sustentacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SustPregrado"/>
+        <Class IRI="#Sustentacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TerminoClave"/>
+        <Class IRI="#Termino"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TerminoSecundario"/>
+        <Class IRI="#Termino"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tesis"/>
+        <Class IRI="#ProyectoDeInvestigacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TesisBachiller"/>
+        <Class IRI="#TesisPregrado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TesisDoctorado"/>
+        <Class IRI="#TesisPosgrado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TesisMaestria"/>
+        <Class IRI="#TesisPosgrado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TesisPosgrado"/>
+        <Class IRI="#Tesis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TesisPregrado"/>
+        <Class IRI="#Tesis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrabInvAprobado"/>
+        <Class IRI="#EstadoTrabajoInvestigacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrabInvConcluido"/>
+        <Class IRI="#EstadoTrabajoInvestigacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrabInvMaestria"/>
+        <Class IRI="#TrabajoDeInvestigacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrabInvProgramadoPublicacion"/>
+        <Class IRI="#EstadoTrabajoInvestigacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrabInvProgramadoSustentacion"/>
+        <Class IRI="#EstadoTrabajoInvestigacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrabInvPublicado"/>
+        <Class IRI="#EstadoTrabajoInvestigacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrabInvRechazado"/>
+        <Class IRI="#EstadoTrabajoInvestigacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrabInvRegistrado"/>
+        <Class IRI="#EstadoTrabajoInvestigacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrabInvTitulo2"/>
+        <Class IRI="#ProduccionDeInvestigacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrabInvTitulo2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneAsesor"/>
+            <Class IRI="#Asesor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrabInvTitulo2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneAutor"/>
+            <Class IRI="#AutorAlumnoPosgrado"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrabInvTitulo2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneAutor"/>
+            <Class IRI="#AutorAlumnoPregrado"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrabInvTitulo2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneEvaluador"/>
+            <Class IRI="#EvaluadorJurado"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrabInvTitulo2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneSustentacion"/>
+            <Class IRI="#SustPosgrado"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrabInvTitulo2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneSustentacion"/>
+            <Class IRI="#SustPregrado"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrabInvTitulo2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneTermino"/>
+            <Class IRI="#TerminoClave"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrabInvTitulo2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneTermino"/>
+            <Class IRI="#TerminoSecundario"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrabInvTitulo2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneUniversidad"/>
+            <Class IRI="#UniversidadPrivada"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrabInvTitulo2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneUniversidad"/>
+            <Class IRI="#UniversidadPublica"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrabInvTitulo2"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#tieneAutor"/>
+            <ObjectUnionOf>
+                <Class IRI="#AutorAlumnoPosgrado"/>
+                <Class IRI="#AutorAlumnoPregrado"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrabInvTitulo2"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#tieneSustentacion"/>
+            <ObjectUnionOf>
+                <Class IRI="#SustPosgrado"/>
+                <Class IRI="#SustPregrado"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrabInvTitulo2"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#tieneTermino"/>
+            <ObjectUnionOf>
+                <Class IRI="#TerminoClave"/>
+                <Class IRI="#TerminoSecundario"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrabInvTitulo2"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#tieneUniversidad"/>
+            <ObjectUnionOf>
+                <Class IRI="#UniversidadPrivada"/>
+                <Class IRI="#UniversidadPublica"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrabajoDeInvestigacion"/>
+        <Class IRI="#ProyectoDeInvestigacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UniversidadPrivada"/>
+        <Class IRI="#Universidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UniversidadPublica"/>
+        <Class IRI="#Universidad"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Aprobado"/>
+        <Class IRI="#Concluido"/>
+        <Class IRI="#Programado"/>
+        <Class IRI="#Rechazado"/>
+        <Class IRI="#Registrado"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ArticuloDeInvestigacion"/>
+        <Class IRI="#ProyectoDeInvestigacion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Asesor"/>
+        <Class IRI="#Autor"/>
+        <Class IRI="#Coordinador"/>
+        <Class IRI="#CoordinadorEspecialidad"/>
+        <Class IRI="#DirectorEscuela"/>
+        <Class IRI="#EvaluadorJurado"/>
+        <Class IRI="#Publicador"/>
+        <Class IRI="#Revisor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AutorAlumnoPosgrado"/>
+        <Class IRI="#AutorAlumnoPregrado"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Libro"/>
+        <Class IRI="#Revista"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ProduccionDeInvestigacion"/>
+        <Class IRI="#ProduccionLiteraria"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Tesis"/>
+        <Class IRI="#TrabajoDeInvestigacion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#TesisDoctorado"/>
+        <Class IRI="#TesisMaestria"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#TesisPosgrado"/>
+        <Class IRI="#TesisPregrado"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#TrabInvAprobado"/>
+        <Class IRI="#TrabInvConcluido"/>
+        <Class IRI="#TrabInvProgramadoPublicacion"/>
+        <Class IRI="#TrabInvProgramadoSustentacion"/>
+        <Class IRI="#TrabInvPublicado"/>
+        <Class IRI="#TrabInvRechazado"/>
+        <Class IRI="#TrabInvRegistrado"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#esAnfiteatroDe"/>
+        <ObjectProperty IRI="#esAuditorioFisicoDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#esAuditorioDe"/>
+        <ObjectProperty IRI="#esAuditorioFisicoDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#esAuditorioFisicoDe"/>
+        <ObjectProperty IRI="#esTipoAuditorioDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#esAuditorioVirtualDe"/>
+        <ObjectProperty IRI="#esTipoAuditorioDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#esAutorAlumnoPosgradoDe"/>
+        <ObjectProperty IRI="#esAutorDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#esAutorAlumnoPregradoDe"/>
+        <ObjectProperty IRI="#esAutorDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#esBibliotecaDe"/>
+        <ObjectProperty IRI="#esTipoBibiliotecaDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#esParteDeCicloAcamEgresoDe"/>
+        <ObjectProperty IRI="#esParteDeCicloAcademicoDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#esParteDeCicloAcamIngresoDe"/>
+        <ObjectProperty IRI="#esParteDeCicloAcademicoDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#esParteDeEscuelaDe"/>
+        <ObjectProperty IRI="#esParteDeUnidadAcademicaDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#esParteDeEspPosgDoctoradoDe"/>
+        <ObjectProperty IRI="#esParteDeEspecialidadPosgradoDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#esParteDeEspPosgMaestriaDe"/>
+        <ObjectProperty IRI="#esParteDeEspecialidadPosgradoDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#esParteDeEspecialidadPosgradoDe"/>
+        <ObjectProperty IRI="#esParteDeEspecialidadDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#esParteDeEspecialidadPregradoDe"/>
+        <ObjectProperty IRI="#esParteDeEspecialidadDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#esParteDeFacultadDe"/>
+        <ObjectProperty IRI="#esParteDeUnidadAcademicaDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#esSalaDe"/>
+        <ObjectProperty IRI="#esAuditorioFisicoDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#esSalaLecturaDe"/>
+        <ObjectProperty IRI="#esTipoBibiliotecaDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#perteneceCicloAcamEgreso"/>
+        <ObjectProperty IRI="#perteneceCicloAcademico"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#perteneceCicloAcamIngreso"/>
+        <ObjectProperty IRI="#perteneceCicloAcademico"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#perteneceEscuela"/>
+        <ObjectProperty IRI="#perteneceUnidadAcademica"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#perteneceEspPosgDoctorado"/>
+        <ObjectProperty IRI="#perteneceEspecialidadPosgrado"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#perteneceEspPosgMaestria"/>
+        <ObjectProperty IRI="#perteneceEspecialidadPosgrado"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#perteneceEspecialidadPosgrado"/>
+        <ObjectProperty IRI="#perteneceEspecialidad"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#perteneceEspecialidadPregrado"/>
+        <ObjectProperty IRI="#perteneceEspecialidad"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#perteneceFacultad"/>
+        <ObjectProperty IRI="#perteneceUnidadAcademica"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#tieneAnfiteatro"/>
+        <ObjectProperty IRI="#tieneAuditorioFisico"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#tieneAuditorio"/>
+        <ObjectProperty IRI="#tieneAuditorioFisico"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#tieneAuditorioFisico"/>
+        <ObjectProperty IRI="#tieneTipoAuditorio"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#tieneAuditorioVirtual"/>
+        <ObjectProperty IRI="#tieneTipoAuditorio"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#tieneAutorAlumnoPosgrado"/>
+        <ObjectProperty IRI="#tieneAutor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#tieneAutorAlumnoPregrado"/>
+        <ObjectProperty IRI="#tieneAutor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#tieneBiblioteca"/>
+        <ObjectProperty IRI="#tieneTipoBiblioteca"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#tieneSala"/>
+        <ObjectProperty IRI="#tieneAuditorioFisico"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#tieneSalaLectura"/>
+        <ObjectProperty IRI="#tieneTipoBiblioteca"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esAnfiteatroDe"/>
+        <ObjectProperty IRI="#tieneAnfiteatro"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esAsesorDe"/>
+        <ObjectProperty IRI="#tieneAsesor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esAuditorioDe"/>
+        <ObjectProperty IRI="#tieneAuditorio"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esAuditorioFisicoDe"/>
+        <ObjectProperty IRI="#tieneAuditorioFisico"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esAuditorioVirtualDe"/>
+        <ObjectProperty IRI="#tieneAuditorioVirtual"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esAutorAlumnoPregradoDe"/>
+        <ObjectProperty IRI="#tieneAutorAlumnoPregrado"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esAutorDe"/>
+        <ObjectProperty IRI="#tieneAutor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esBibliotecaDe"/>
+        <ObjectProperty IRI="#tieneBiblioteca"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esEvaluadoPor"/>
+        <ObjectProperty IRI="#tieneEvaluador"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esParteDeCicloAcademicoDe"/>
+        <ObjectProperty IRI="#perteneceCicloAcademico"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esParteDeCicloAcamEgresoDe"/>
+        <ObjectProperty IRI="#perteneceCicloAcamEgreso"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esParteDeCicloAcamIngresoDe"/>
+        <ObjectProperty IRI="#perteneceCicloAcamIngreso"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esParteDeDepartamentoAcademicoDe"/>
+        <ObjectProperty IRI="#perteneceDepartamentoAcademico"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esParteDeEscuelaDe"/>
+        <ObjectProperty IRI="#perteneceEscuela"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esParteDeEspPosgDoctoradoDe"/>
+        <ObjectProperty IRI="#perteneceEspPosgDoctorado"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esParteDeEspPosgMaestriaDe"/>
+        <ObjectProperty IRI="#perteneceEspPosgMaestria"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esParteDeEspecialidadDe"/>
+        <ObjectProperty IRI="#perteneceEspecialidad"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esParteDeEspecialidadPosgradoDe"/>
+        <ObjectProperty IRI="#perteneceEspecialidadPosgrado"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esParteDeEspecialidadPregradoDe"/>
+        <ObjectProperty IRI="#perteneceEspecialidadPregrado"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esParteDeFacultadDe"/>
+        <ObjectProperty IRI="#perteneceFacultad"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esParteDeUnidadAcademicaDe"/>
+        <ObjectProperty IRI="#perteneceUnidadAcademica"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esSalaDe"/>
+        <ObjectProperty IRI="#tieneSala"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esSalaLecturaDe"/>
+        <ObjectProperty IRI="#tieneSalaLectura"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esSustentadoPor"/>
+        <ObjectProperty IRI="#tieneSustentacion"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esTerminoDe"/>
+        <ObjectProperty IRI="#tieneTermino"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esTipoAuditorioDe"/>
+        <ObjectProperty IRI="#tieneTipoAuditorio"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esTipoBibiliotecaDe"/>
+        <ObjectProperty IRI="#tieneTipoBiblioteca"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esUniversidadDe"/>
+        <ObjectProperty IRI="#tieneUniversidad"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#tieneAutorAlumnoPosgrado"/>
+        <ObjectProperty IRI="#tieneAutorAlumnoPosgrado"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#tieneEstadoTesis"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#tieneEstadoTrabajoInvestigacion"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esAsesorDe"/>
+        <Class IRI="#Asesor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esAutorAlumnoPosgradoDe"/>
+        <Class IRI="#AutorAlumnoPosgrado"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esAutorAlumnoPregradoDe"/>
+        <Class IRI="#AutorAlumnoPregrado"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esAutorDe"/>
+        <Class IRI="#Autor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esEvaluadoPor"/>
+        <Class IRI="#EvaluadorJurado"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esTerminoDe"/>
+        <Class IRI="#Termino"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#perteneceCicloAcademico"/>
+        <Class IRI="#ProyectoDeInvestigacion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#perteneceDepartamentoAcademico"/>
+        <Class IRI="#UnidadAcademica"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#perteneceEspecialidad"/>
+        <Class IRI="#UnidadAcademica"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#perteneceUnidadAcademica"/>
+        <Class IRI="#Sustentacion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneAsesor"/>
+        <Class IRI="#ProyectoDeInvestigacion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneAutor"/>
+        <Class IRI="#ProduccionCientifica"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneAutorAlumnoPosgrado"/>
+        <Class IRI="#ProduccionCientifica"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneAutorAlumnoPregrado"/>
+        <Class IRI="#ProduccionCientifica"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneEvaluador"/>
+        <Class IRI="#ProyectoDeInvestigacion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneSustentacion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneUniversidad"/>
+            <Class IRI="#ProyectoDeInvestigacion"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneTermino"/>
+        <Class IRI="#ProduccionDeInvestigacion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneTipoAuditorio"/>
+        <Class IRI="#Sustentacion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneTipoBiblioteca"/>
+        <Class IRI="#Sustentacion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneUniversidad"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneUniversidad"/>
+            <Class IRI="#ProduccionCientifica"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esAsesorDe"/>
+        <Class IRI="#ProyectoDeInvestigacion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esAutorAlumnoPosgradoDe"/>
+        <Class IRI="#ProduccionCientifica"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esAutorAlumnoPregradoDe"/>
+        <Class IRI="#ProduccionCientifica"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esAutorDe"/>
+        <Class IRI="#ProduccionCientifica"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esEvaluadoPor"/>
+        <Class IRI="#ProyectoDeInvestigacion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esTerminoDe"/>
+        <Class IRI="#ProduccionDeInvestigacion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#perteneceCicloAcademico"/>
+        <Class IRI="#CicloAcademico"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#perteneceDepartamentoAcademico"/>
+        <Class IRI="#DepartamentoAcademico"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#perteneceEspecialidad"/>
+        <Class IRI="#Especialidad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#perteneceUnidadAcademica"/>
+        <Class IRI="#UnidadAcademica"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneAsesor"/>
+        <Class IRI="#Asesor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneAutor"/>
+        <Class IRI="#Autor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneAutorAlumnoPosgrado"/>
+        <Class IRI="#AutorAlumnoPosgrado"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneAutorAlumnoPregrado"/>
+        <Class IRI="#AutorAlumnoPregrado"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneEstadoTesis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneEstadoTesis"/>
+            <Class IRI="#EstadoTesis"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneEstadoTrabajoInvestigacion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneEstadoTesis"/>
+            <Class IRI="#EstadoTrabajoInvestigacion"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneEvaluador"/>
+        <Class IRI="#EvaluadorJurado"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneSustentacion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneSustentacion"/>
+            <Class IRI="#Sustentacion"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneTermino"/>
+        <Class IRI="#Termino"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneTipoAuditorio"/>
+        <Class IRI="#TipoAuditorio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneTipoBiblioteca"/>
+        <Class IRI="#TipoBiblioteca"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneUniversidad"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneUniversidad"/>
+            <Class IRI="#Universidad"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
